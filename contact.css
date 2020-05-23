@@ -1,0 +1,132 @@
+.container {
+          width: 100%;
+          height: 100%;
+      }
+      .header {
+          background-color: darkblue;
+          width: 100%;
+          height: 20%;
+          position: absolute;
+          top: 0;
+          left: 0;
+      }
+      .logo {
+          padding-left: 60px;
+          width: 30%;
+          position: absolute;
+      }
+      .logoimage {
+          margin: 20px;
+          padding: 20px;
+          width: 20%;
+          height: 30%;
+          padding-bottom: 20px;
+      }
+      .title {
+          margin-left: 0px;
+          padding-top: 0;
+          padding-left: 10px;
+      }
+      .titletext {
+          text-align: center;
+          font-size: 16px;
+          font-family: Arial,Roboto;
+          font-weight: normal;
+          color: yellow;
+      }
+      .journal {
+          padding-left:120px;
+          position: absolute;
+      }
+      .journalimage {
+          margin-right: 40%;
+          padding-left: 850px;
+          margin-top: -40px;
+          width: 140px;
+          height: 90px;
+          text-align: right;
+      }
+      ul {
+          padding-left: 100px;
+      }
+      ul, li {
+          float: left;
+          list-style: none;
+          padding: 10px;
+      }
+      #navigation {
+          position: absolute;
+          background-color: #f8f9fa;
+          top: 20%;
+          left: opx;
+          height: 7%;
+          width: 100%;
+      }
+      .navi {
+          padding-left: 140px;
+          position: absolute;
+          top: -15px;
+      }
+      .navi, .nav {
+          float: left;
+          list-style: none;
+          padding: 10px;
+          margin-top: 10px;
+          margin-left: 40px;
+      }
+      a, .nav {
+          text-decoration: none;
+          color: #6b6b6b;
+          cursor: pointer;
+      }
+          a:hover, .nav:hover {
+              color: black;
+          }
+      .contactus {
+          position: absolute;
+          top: 30%;
+          left: 5%;
+          margin: 3%;
+          width: 80%;
+          height: 800px;
+      }
+      .contact1 {
+          font-size: 30px;
+          border-bottom: 3px dotted black;
+          padding-right: 400px;
+          padding-left: 30px;
+      }
+      .map {
+          width: 50%;
+          height: 45%;
+          margin: 20px;
+          padding-top: 100px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+      }
+      .tel {
+          margin-left: 50px;
+      }
+      .form {
+          position: absolute;
+          left: 650px;
+          top: 100px;
+          margin-top: 1px;
+          margin-right: 200px;
+      }
+          .Form input {
+              width: 300px;
+              height: 20px;
+          }
+      .msg {
+          clear: right;
+      }
+      .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: darkblue;
+          color: yellow;
+          text-align: center;
+      }
