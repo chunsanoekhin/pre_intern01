@@ -96,6 +96,27 @@
                 text-align: center;
                 width:100%;
             }
+            .cards{
+ 
+          display: grid;
+  
+          grid-template-columns: repeat(3, 1fr);
+  
+          grid-auto-rows: auto;
+  
+          grid-gap: 1rem;
+  
+          }
+  
+          .card {
+  
+          border: 2px solid #e7e7e7;
+  
+          border-radius: 4px;
+  
+          padding: .5rem;
+  
+          }
 
      
     </style>
@@ -129,27 +150,38 @@
                     <h4><b>Height</b>       :  5'6";</h4>
                     <h4><b>Weight</b>       : Thanks!</h4>
                     <h4><b>Address</b>      : Chauk Township;</h4>
-                     <h2>Personal Achievements</h2>
+                    <div class="cards">
+                   <div class="card">
+                      <h2>Personal Achievements</h2>
+                    
+                        
                          <ul>
                              <li>Member of Table Tennis Club (UCSMGY)</li>
                              <li>Debating in English class(how to use social media effectively)</li>
                              <li>Participate in every University activity</li>
                              <li>Participate in lecture group presentation</li>
                          </ul>
+                        </div>
+                    <div class="card">
                          <h2>Interests & Hobbies</h2>
+                        
                          <ul>
                              <li>Drawing</li>
                              <li>Reading</li>
                              <li>Travelling</li>
                              <li>Playing table tennis</li>
                          </ul>
-                    
                     </div>
+                        </div>
+                    
                      </div> 
+
                              
      <div id="class3">
           <div class="contact">
                <div class="address">
+                   <div class="cards">
+                      <div class="card">
                    <p><h2>Contact US</h2></p>
                   <p>Email: <span>marylay909@gmail.com</span> <br/></p> 
                   <p>Phone No: <span>09425032600</span><br/></p> 
@@ -157,7 +189,8 @@
                    <p>Web Site: <span>www.google.com</span><br/></p>
 
                </div> 
-            
+                       
+            <div class="card">
         <div class="form">
                 <h4>Do you want to contact me?<br />Drop the message and I will contact you soon.Thanks;</h4>
                 <form>
@@ -168,6 +201,8 @@
                     <p><button class="button" type="submit">SEND</button></p>
                 </form>
             </div>
+                </div>
+                </div>
               </div>
               </div>
         </div>
