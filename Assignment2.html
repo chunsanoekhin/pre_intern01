@@ -14,15 +14,27 @@
                 width: 100%;
                 height: 40px; 
             }
-            .fontstyle
-                {
-                color: white;
-                font-family: Arial,Roboto; 
-                 height: 10%;
-                 text-align: right;
-                 
-            }
-            .d1
+                 .leftbox { 
+                float:left;  
+                background:lightgrey; 
+                width:35%; 
+                height:450px; 
+                padding-left: 100px;
+            } 
+            .middlebox{ 
+                float:left;  
+                background:lightgrey; 
+                width:20%; 
+                height:450px; 
+            } 
+            .rightbox{ 
+                float:right; 
+                background:lightgrey; 
+                width:30%; 
+                height:450px; 
+            } 
+           
+            .mmnk1
             {
                 background-color: limegreen;
                 width: 100%;
@@ -30,14 +42,14 @@
                 position: absolute;
                 left: 0px;
             }
-            .d2
+            .mmnk2
             {
                 width: 100%;
                 height: 10%;
             }
       
 
-            .d3{
+            .mmnk3{
                         position: absolute;
                         background-color: grey;
                        
@@ -46,12 +58,12 @@
                         width: 100%;
       
            }
-           .d4
+           .mmnk4
            {
                padding-top: 1%;
            }
 
-           .d5
+           .mmnk5
            {
             position: absolute;
             left: 0px;
@@ -59,44 +71,24 @@
             height: 80%;
             width: 100%;
            }
-           .d6
+           .mmnk6
            {
               padding-left: 100px;
               padding-top: 70px;
            }
-           .d7
+           .mmnk7
            {
               padding-left: 100px;
               padding-top: 1px;
               padding-right: 100px;
            }
 
-           .cards{
- 
-          display: grid;
-  
-          grid-template-columns: repeat(3, 1fr);
-  
-          grid-auto-rows: auto;
-  
-          grid-gap: 1rem;
-  
-          }
-  
-          .card {
-  
-          border: 2px solid #e7e7e7;
-  
-          border-radius: 4px;
-  
-          padding: .5rem;
-  
-          }
+           
           .button
          {
           background-color: yellow;
          }
-         .bdyimg
+         .back
          {
           width: 100%;
           height: 180px;
@@ -129,23 +121,23 @@
   width: 50%;
   float: left;
 }
+               .font
+                {
+                color: white;
+                font-family: Arial,Roboto; 
+                 height: 10%;
+                 text-align: right;
+                 
+            }
 
-.textbox {
-  width: 50%;
-  float: right;
-  text-align: center;
-  padding-top: 10px;
-  background-color: white;
-  color: black;
-}
-.d8
+.mmnk8
 {
     width: 100%;
     height: 100%;
     padding-bottom: 30%;
     
 }
-.d9
+.mmnk9
 {
     width: 100%;
     height: 50%;
@@ -155,23 +147,18 @@
     
 
 }
-.d10
+.mmnk10
 {
     text-align:right;
     padding-right: 130px;
     
 }
-            .d11
+            .mmnk11
 {
     text-align: center;
     padding-bottom: 40px;
 }
-.d12
-           { width: 5px;
-               height: 5px;
-               
 
-           }
            .index1
           {
           width: 100%;
@@ -181,7 +168,7 @@
           
           
           }
-          .d13
+          .mmnk12
           {
               width: 100%;
               height: 100%;
@@ -190,19 +177,19 @@
               padding-left: 10px;
               padding-right: 10px;
           }
-          .d14
+          .mmnk13
           {
             text-align:right;
              padding-right: 5px;
              padding-top: 40px;
              padding-bottom: 40px;
           }
-          .d15
+          .mmnk14
           {
               width: 30%;
               height: 50%;
           }
-          .d16
+          .mmnk15
           {
               background-color: lightgrey;
               width: 100%;
@@ -212,32 +199,43 @@
               
                 display: flex;
           }
-          .d17
+          .mmnk16
           {
               width: 100%;
               height: 50%;
               padding-right: 100%;
           }
+          .cards{
+ 
+          display: grid;
+  
+          grid-template-columns: repeat(3, 1fr);
+  
+          grid-auto-rows: auto;
+  
+          grid-gap: 1rem;
+  
+          }
+  
+          .card {
+  
+          border: 2px solid #e7e7e7;
+  
+          border-radius: 4px;
+  
+          padding: .5rem;
+  
+          }
 
-          .leftbox { 
-                float:left;  
-                background:lightgrey; 
-                width:35%; 
-                height:450px; 
-                padding-left: 100px;
-            } 
-            .middlebox{ 
-                float:left;  
-                background:lightgrey; 
-                width:20%; 
-                height:450px; 
-            } 
-            .rightbox{ 
-                float:right; 
-                background:lightgrey; 
-                width:30%; 
-                height:450px; 
-            } 
+     
+            .textbox {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  color: black;
+}
             
             
         </style>
@@ -246,10 +244,10 @@
 
 </head>
 <body>
-    <div class="d1"></div>
-            <div class="fontstyle"> 
+    <div class="mmnk1"></div>
+            <div class="font"> 
                 <div class="navbar">
-                    <div class="d4">
+                    <div class="mmnk4">
                         
                     Alumini &nbsp; |  &emsp;
                     Library &nbsp; |  &emsp;
@@ -259,8 +257,8 @@
                 
             </div>
         </div>
-          <div ><img src="banner.png" width="100%"></div>
-            <div class="d3"><div class="d4">
+          <div ><img src="banner.png" width="100%"/></div>
+            <div class="mmnk3"><div class="mmnk4">
                 &emsp;&emsp;&emsp;&emsp;&emsp; Home&emsp;
                 ABOUT YTU&emsp;
                 ADMISSION&emsp;
@@ -275,7 +273,7 @@
             </div>
             <div>
                
-            <div class="bdyimg" style="background-image: url(tu.jpg); width: 100%; height: 490px; 
+            <div class="back" style="background-image: url(tu.jpg); width: 100%; height: 490px; 
             background-repeat: no-repeat;background-size: cover; ">
             <div class="index">
                       <img src="dd.jpg" width="35%" height="300px">
@@ -286,7 +284,7 @@
                     </div>
            </div>
           </div>
-            <div class="row"><div class="d7">
+            <div class="row"><div class="mmnk7">
                 <div class="cards">
                     <div class="card">
                         <h3>Our Objectives</h3>
@@ -305,8 +303,8 @@
                     </div>
                 </div>
           </div>
-          <div class="d8">
-        <div class="d6">
+          <div class="mmnk8">
+        <div class="mmnk6">
         <div class="imagebox">
             
             <img src="YTU.jpg" width="65%" height="40%"/>
@@ -322,29 +320,29 @@
             </div>
           </div>
        </div>
-                <div class="d9">
+                <div class="mmnk9">
              <h2 style="color: orangered; text-align: center; font-size: 50px;">YTU Events</h2>
              <img src="pp.png".jpg width="20%" style="padding-left: 100px;"/>
              <img src="dd.jpg".jpg width="20%" style="padding-left: 10px;"/>
              <img src="DG.jpg".jpg width="20%" height="180px" style="padding-left: 10px;"/>
              <img src="xx.jpg".jpg width="20%" height="180px" style="padding-left: 10px;"/>
        </div>
-         <div class="d10">
+         <div class="mmnk10">
              <button  class="button">Read More</button>
        </div>
        <div>
            <h2 style="color: orangered; text-align: center; font-size: 50px;">WELCOME TO YTU</h2>
            <p style="padding-right: 130px; padding-left: 100px;">Yangon Technological University is one of the best universities in Myanmar and only allows admissions of students who gained high marks from the matriculation examination. A student’s majorized engineering field is also decided by the marks he earned through the matriculation examination. Currently, YTU possesses 12 Engineering Departments, 6 Supporting Departments, 1 Research Centre and 47 Laboratories. There are currently about 2000 students seeking knowledge and experiences at YTU. Find out more about the history of YTU at... </p>
        </div>
-       <div class="d11">
+       <div class="mmnk11">
         <button  class="button">Read More</button>
   </div>
 
 
-    <div class="bdyimg" style="background-image: url(tu1.jpg); width: 100%; height: 190px; 
+    <div class="back" style="background-image: url(tu1.jpg); width: 100%; height: 190px; 
     background-repeat: no-repeat;background-size: cover; ">
     <div class="index1">
-        <div class="d7">
+        <div class="mmnk7">
             <div class="row">
                <div class="cards">
                   <div class="card">
@@ -361,7 +359,7 @@
                 </div>
             </div>
         </div>
-            <div class="d13">
+            <div class="mmnk12">
         <div class="row">
             <div class="cards">
                 <div class="card">
@@ -383,7 +381,7 @@
         </div>
 
             
-        <div class="d13">
+        <div class="mmnk12">
             <div class="row">
                 <div class="cards">
                     <div class="card">
@@ -404,11 +402,11 @@
                 </div>
                 
            
-            <div class="d14">
+            <div class="mmnk13">
                 <button  class="button">Read More</button>
           </div>
         </div>
-        <div class="d16">
+        <div class="mmnk15">
        
             <div class= "leftbox"> 
                 <h2 style="color: white; text-align:center;">ABOUT YTU</h2> 
